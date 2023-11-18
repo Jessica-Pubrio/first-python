@@ -1,0 +1,23 @@
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .txt 文件
+*.txt
+
+# 忽略所有 /logs 目录及其内容
+/logs/
+
+# 忽略所有 /tmp 目录及其内容
+/tmp/
+
+# 忽略特定文件
+config.ini
+
+# 忽略所有 .pyc 文件
+*.pyc
+
+# 忽略所有 .DS_Store 文件（针对 macOS）
+.DS_Store
+
+# 忽略所有 .idea 目录及其内容（针对 IntelliJ IDEA）
+.idea/
