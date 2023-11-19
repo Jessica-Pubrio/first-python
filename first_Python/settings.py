@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'first_Python.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'devsg',  # 你的数据库名
+        'USER': 'myemail',  # 你的数据库用户名
+        'PASSWORD': '123456',  # 你的数据库密码
+        'HOST': '10.33.112.3 ',  # 你的数据库主机，默认为localhost
+        'PORT': '3306',  # 你的数据库端口，默认是3306
     }
 }
 
