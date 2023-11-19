@@ -2,7 +2,7 @@
 *.log
 
 # 忽略所有 .txt 文件
-*.txt
+
 
 # 忽略所有 /logs 目录及其内容
 /logs/
@@ -21,3 +21,5 @@ config.ini
 
 # 忽略所有 .idea 目录及其内容（针对 IntelliJ IDEA）
 .idea/
+
+venv/
